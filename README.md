@@ -9,7 +9,7 @@
 
 1. **Cài đặt môi trường**
    
-   Đảm bảo rằng bạn đã cài đặt Python và các thư viện cần thiết bằng cách sử dụng file \
+Cài đặt Python và các thư viện cần thiết bằng cách sử dụng file \
 equirements.txt\.
 
 2. **Tạo file \.env\**
@@ -29,23 +29,18 @@ equirements.txt\.
 3. **Cài đặt thư viện cần thiết**
 
    Chạy lệnh sau để cài đặt các thư viện phụ thuộc:
-
-   \\\ash
    pip install -r requirements.txt
-   \\\
 
 4. **Cấu hình thư mục**
 
    - **\data/\**: Chứa các file database cần sao lưu (tệp có đuôi \.sql\ hoặc \.sqlite3\).
-   - **\ackup/\**: Chứa các bản sao lưu của các file từ thư mục \data/\.
+   - **\backup/\**: Chứa các bản sao lưu của các file từ thư mục \data/\.
 
 ## Chạy chương trình
 
 Chạy chương trình bằng cách sử dụng lệnh sau:
 
-\\\bash
 python backup_script.py
-\\\
 
 Chương trình sẽ tự động sao lưu các file và gửi email thông báo hàng ngày vào lúc 00:00.
 
