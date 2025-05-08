@@ -3,7 +3,7 @@
 
 # Tự động sao lưu database và gửi email thông báo
 
-Đây là một chương trình Python giúp tự động sao lưu các tệp database (.sql, .sqlite3) từ thư mục \data/\ vào thư mục \ackup/\ mỗi ngày lúc 00:00, đồng thời gửi email thông báo về quá trình sao lưu (thành công hoặc thất bại).
+Đây là một chương trình Python giúp tự động sao lưu các tệp database (.sql, .sqlite3) từ thư mục \data/\ vào thư mục \backup/\ mỗi ngày lúc 00:00, đồng thời gửi email thông báo về quá trình sao lưu (thành công hoặc thất bại).
 
 ## Cấu hình
 
